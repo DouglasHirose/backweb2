@@ -2,24 +2,30 @@
   "name": "backweb2",
   "version": "1.0.0",
   "description": "AIP Backend for RUSH.gg",
-  "main": "index.js",
-  "scripts": {
-    "test": "jp1 -test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/DouglasHirose/backweb2.git"
-  },
   "keywords": [
     "jogos",
     "api",
     "project",
     "jornal"
   ],
-  "author": "Douglas Hirose",
-  "license": "MIT",
+  "homepage": "https://github.com/DouglasHirose/backweb2#readme",
   "bugs": {
     "url": "https://github.com/DouglasHirose/backweb2/issues"
   },
-  "homepage": "https://github.com/DouglasHirose/backweb2#readme"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DouglasHirose/backweb2.git"
+  },
+  "license": "MIT",
+  "author": "Douglas Hirose",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "jp1 -test",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "next": "^15.1.7"
+  }
 }
