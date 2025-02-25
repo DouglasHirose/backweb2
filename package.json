@@ -18,14 +18,16 @@
   },
   "license": "MIT",
   "author": "Douglas Hirose",
-  "type": "commonjs",
   "main": "index.js",
+  "type":"module",
   "scripts": {
+    "start": "node src/server.js",
     "test": "jp1 -test",
     "dev": "node --watch src/server.js"
   },
   "dependencies": {
     "express": "^4.21.2",
-    "next": "^15.1.7"
+    "next": "^15.1.7",
+    "prisma": "^6.4.1"
   }
 }
