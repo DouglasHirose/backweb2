@@ -19,15 +19,18 @@
   "license": "MIT",
   "author": "Douglas Hirose",
   "main": "index.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
     "start": "node src/server.js",
     "test": "jp1 -test",
     "dev": "node --watch src/server.js"
   },
   "dependencies": {
+    "@prisma/client": "^6.5.0",
     "express": "^4.21.2",
-    "next": "^15.1.7",
-    "prisma": "^6.4.1"
+    "next": "^15.1.7"
+  },
+  "devDependencies": {
+    "prisma": "^6.5.0"
   }
 }
